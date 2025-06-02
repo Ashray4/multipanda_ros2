@@ -45,8 +45,8 @@ def concatenate_ns(ns1, ns2, absolute=False):
     return ns1 + '/' + ns2
 
 def generate_launch_description():
-    arm_id_1_param = "arm_id_1"
-    arm_id_2_param = "arm_id_2"
+    arm_id_1_param = "mj_left"
+    arm_id_2_param = "mj_right"
     initial_positions_1_param = 'initial_positions_1'
     initial_positions_2_param = 'initial_positions_2'
     use_rviz_param = 'use_rviz'
@@ -132,12 +132,12 @@ def generate_launch_description():
         ),
         DeclareLaunchArgument(
             initial_positions_1_param,
-            default_value='"0.0 -0.785 0.0 -2.356 0.0 1.571 0.785"',
+            default_value='"0 -0.7853981633974483 0 -2.356194490192345 0 1.5707963267948966 0.7853981633974483"',
             description='Initial joint positions of robot 1. Must be enclosed in quotes, and in pure number.'
                         'Defaults to the "communication_test" pose.'),
         DeclareLaunchArgument(
             initial_positions_2_param,
-            default_value='"0.0 -0.785 0.0 -2.356 0.0 1.571 0.785"',
+            default_value='"0 -0.7853981633974483 0 -2.356194490192345 0 1.5707963267948966 0.7853981633974483"',
             description='Initial joint positions of robot 2. Must be enclosed in quotes, and in pure number.'
                         'Defaults to the "communication_test" pose.'),
 
@@ -162,7 +162,7 @@ def generate_launch_description():
         Node( # RVIZ dependency
             package='controller_manager',
             executable='spawner',
-            arguments=['joint_state_broadcaster', '-c', concatenate_ns(ns, 'controller_manager', True)],
+            arguments=['joint_state_broadcaster','franka_right_panda_pd_controller','franka_left_panda_pd_controller','dual_mpc_controller','-c', concatenate_ns(ns, 'controller_manager', True)],
             output='screen',
         ),
         Node(package='rviz2',

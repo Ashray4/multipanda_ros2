@@ -1,0 +1,168 @@
+[0.016s] Invoking command in '/home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sysgen/checkout/franka_simul_ws/colcon_ws/install/franka_simple_publishers:/opt/ros/humble PS1=[franka_simul_ws] \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ROB_FOLDERS_EMPTY_PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description
+[0.110s] -- The C compiler identification is GNU 11.4.0
+[0.184s] -- The CXX compiler identification is GNU 11.4.0
+[0.197s] -- Detecting C compiler ABI info
+[0.316s] -- Detecting C compiler ABI info - done
+[0.323s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.323s] -- Detecting C compile features
+[0.324s] -- Detecting C compile features - done
+[0.327s] -- Detecting CXX compiler ABI info
+[0.457s] -- Detecting CXX compiler ABI info - done
+[0.464s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.464s] -- Detecting CXX compile features
+[0.464s] -- Detecting CXX compile features - done
+[0.477s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.706s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.910s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.926s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.946s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.946s] -- Configured cppcheck include dirs: 
+[1.946s] -- Configured cppcheck exclude dirs and/or files: 
+[1.964s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.964s] -- Configured cpplint exclude dirs and/or files: 
+[1.968s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.974s] -- Added test 'lint_cmake' to check CMake code style
+[1.978s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.998s] -- Added test 'uncrustify' to check C / C++ code style
+[1.998s] -- Configured uncrustify additional arguments: 
+[2.002s] -- Added test 'xmllint' to check XML markup files
+[2.006s] -- Configuring done
+[2.012s] -- Generating done
+[2.015s] -- Build files have been written to: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/build/franka_description
+[2.021s] Invoked command in '/home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sysgen/checkout/franka_simul_ws/colcon_ws/install/franka_simple_publishers:/opt/ros/humble PS1=[franka_simul_ws] \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ROB_FOLDERS_EMPTY_PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description
+[2.023s] Invoking command in '/home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sysgen/checkout/franka_simul_ws/colcon_ws/install/franka_simple_publishers:/opt/ros/humble PS1=[franka_simul_ws] \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ROB_FOLDERS_EMPTY_PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/build/franka_description -- -j48 -l48
+[2.100s] Invoked command in '/home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sysgen/checkout/franka_simul_ws/colcon_ws/install/franka_simple_publishers:/opt/ros/humble PS1=[franka_simul_ws] \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ROB_FOLDERS_EMPTY_PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/build/franka_description -- -j48 -l48
+[2.119s] Invoking command in '/home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sysgen/checkout/franka_simul_ws/colcon_ws/install/franka_simple_publishers:/opt/ros/humble PS1=[franka_simul_ws] \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ROB_FOLDERS_EMPTY_PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/build/franka_description
+[2.133s] -- Install configuration: "Release"
+[2.133s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//launch
+[2.134s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+[2.134s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots
+[2.134s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/sim
+[2.134s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/sim/dual_panda_arm_sim.ros2_control.xacro
+[2.135s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/sim/dual_panda_arm_sim.urdf.xacro
+[2.135s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/sim/panda_arm_sim.urdf.xacro
+[2.135s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/sim/panda_arm_sim.ros2_control.xacro
+[2.135s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/mixed
+[2.136s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/mixed/mixed_dual_panda_arm.urdf.xacro
+[2.136s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/mixed/mixed_quad_panda_arm.urdf.xacro
+[2.136s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/common
+[2.136s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/common/hand.xacro
+[2.136s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/common/panda_arm.xacro
+[2.137s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/common/hand.urdf.xacro
+[2.137s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/real
+[2.137s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/real/dual_panda_arm.ros2_control.xacro
+[2.137s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/real/panda_arm.urdf.xacro
+[2.138s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/real/dual_panda_arm.urdf.xacro
+[2.138s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//robots/real/panda_arm.ros2_control.xacro
+[2.138s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//meshes
+[2.138s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//meshes/visual
+[2.139s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//meshes/visual/link4.dae
+[2.143s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//meshes/visual/link2.dae
+[2.147s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//meshes/visual/hand.dae
+[2.150s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//meshes/visual/link0.dae
+[2.156s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//meshes/visual/link3.dae
+[2.160s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//meshes/visual/link7.dae
+[2.164s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//meshes/visual/link5.dae
+[2.169s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//meshes/visual/link1.dae
+[2.173s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//meshes/visual/link6.dae
+[2.179s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//meshes/visual/finger.dae
+[2.180s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//meshes/visual/meshes.blend
+[2.186s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//rviz
+[2.187s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+[2.187s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//rviz/visualize_dual_franka.rviz
+[2.187s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco
+[2.187s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka
+[2.188s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/panda_ng.xml
+[2.188s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/dual_scene_ng.xml
+[2.188s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets
+[2.188s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link7_0.obj
+[2.192s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_8.obj
+[2.193s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link7_4.obj
+[2.193s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link0_0.obj
+[2.194s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/hand_2.obj
+[2.196s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/hand_1.obj
+[2.196s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_0.obj
+[2.197s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link7.stl
+[2.197s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link7_2.obj
+[2.198s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link0_1.obj
+[2.199s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link7_7.obj
+[2.201s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_9.obj
+[2.201s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link5_collision_2.obj
+[2.202s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_2.obj
+[2.202s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link7_5.obj
+[2.203s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_3.obj
+[2.203s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link0_3.obj
+[2.203s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/hand_0.obj
+[2.203s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link3.stl
+[2.204s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_15.obj
+[2.206s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_4.obj
+[2.206s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link0_11.obj
+[2.206s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link3_3.obj
+[2.208s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/hand_3.obj
+[2.210s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link5_1.obj
+[2.211s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link0.stl
+[2.211s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link0_2.obj
+[2.213s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link0_5.obj
+[2.213s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link7_1.obj
+[2.214s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link2.stl
+[2.214s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/hand_4.obj
+[2.215s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link3_1.obj
+[2.215s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/finger_1.obj
+[2.215s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_10.obj
+[2.217s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_16.obj
+[2.227s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/finger_0.obj
+[2.227s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_13.obj
+[2.228s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link0_8.obj
+[2.237s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_1.obj
+[2.237s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_5.obj
+[2.238s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link4_2.obj
+[2.239s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link0_9.obj
+[2.240s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link7_6.obj
+[2.240s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link2.obj
+[2.250s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_7.obj
+[2.250s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_6.obj
+[2.250s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link7_3.obj
+[2.251s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link3_2.obj
+[2.251s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link5_collision_0.obj
+[2.251s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link5_2.obj
+[2.262s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link4_3.obj
+[2.263s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link1.stl
+[2.263s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/hand.stl
+[2.263s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link4_1.obj
+[2.272s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link4_0.obj
+[2.273s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6.stl
+[2.273s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link1.obj
+[2.282s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link3_0.obj
+[2.291s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link4.stl
+[2.291s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link0_4.obj
+[2.292s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link0_7.obj
+[2.292s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_14.obj
+[2.294s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link0_10.obj
+[2.295s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link5_collision_1.obj
+[2.295s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_11.obj
+[2.295s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link5_0.obj
+[2.298s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/assets/link6_12.obj
+[2.298s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/mj_dual.xml
+[2.298s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/dual_scene.xml
+[2.299s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/panda.xml
+[2.299s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/mj_dual_ng.xml
+[2.299s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/TEMPLATE_panda.xml
+[2.300s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/scene.xml
+[2.300s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/scene_ng.xml
+[2.300s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description//mujoco/franka/objects.xml
+[2.301s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+[2.301s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+[2.301s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+[2.302s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+[2.302s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description/environment/path.sh
+[2.302s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description/environment/path.dsv
+[2.302s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description/local_setup.bash
+[2.303s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description/local_setup.sh
+[2.303s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description/local_setup.zsh
+[2.303s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description/local_setup.dsv
+[2.303s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description/package.dsv
+[2.304s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/ament_index/resource_index/packages/franka_description
+[2.304s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+[2.304s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+[2.304s] -- Installing: /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/install/franka_description/share/franka_description/package.xml
+[2.308s] Invoked command in '/home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sysgen/checkout/franka_simul_ws/colcon_ws/install/franka_simple_publishers:/opt/ros/humble PS1=[franka_simul_ws] \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ROB_FOLDERS_EMPTY_PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/sysgen/checkout/franka_simul_ws/colcon_ws/src/multipanda_ros2/franka_description/build/franka_description

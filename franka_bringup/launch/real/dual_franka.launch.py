@@ -157,25 +157,31 @@ def generate_launch_description():
         Node(
             package='controller_manager',
             executable='spawner',
-            arguments=['left_robot_state_broadcaster'],
+            arguments=['franka_left_robot_model_broadcaster'],
             output='screen',
         ),
         Node(
             package='controller_manager',
             executable='spawner',
-            arguments=['right_robot_state_broadcaster'],
+            arguments=['franka_right_robot_model_broadcaster'],
             output='screen',
         ),
         Node(
             package='controller_manager',
             executable='spawner',
-            arguments=['left_robot_model_broadcaster'],
+            arguments=['franka_right_panda_pd_controller'],
             output='screen',
         ),
         Node(
             package='controller_manager',
             executable='spawner',
-            arguments=['right_robot_model_broadcaster'],
+            arguments=['franka_left_panda_pd_controller'],
+            output='screen',
+        ),
+        Node(
+            package='controller_manager',
+            executable='spawner',
+            arguments=['dual_mpc_controller'],
             output='screen',
         ),
         # IncludeLaunchDescription(

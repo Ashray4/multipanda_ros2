@@ -51,8 +51,8 @@ def generate_launch_description():
     franka_controllers = PathJoinSubstitution(
         [
             FindPackageShare('franka_bringup'),
-            'config',
-            'controllers.yaml',
+            'config/real',
+            'single_controllers.yaml',
         ]
     )
 
@@ -108,6 +108,12 @@ def generate_launch_description():
             package='controller_manager',
             executable='spawner',
             arguments=['joint_state_broadcaster'],
+            output='screen',
+        ),
+        Node(
+            package='controller_manager',
+            executable='spawner',
+            arguments=['panda_pd_controller'],
             output='screen',
         ),
         Node(

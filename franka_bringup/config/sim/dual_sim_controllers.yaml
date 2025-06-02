@@ -33,8 +33,13 @@ controller_manager:
       type: franka_example_controllers/DualJointVelocityExampleController
     sim_multi_mode_controller:
       type: multi_mode_controller/MultiModeController
-    
-    
+    franka_left_panda_pd_controller:
+      type: pd_controller_franka_panda_with_compensation/PDFrankaPandaControllerCompensation
+    franka_right_panda_pd_controller:
+      type: pd_controller_franka_panda_with_compensation/PDFrankaPandaControllerCompensation
+    dual_mpc_controller:
+      type: dual_mpc_closed_loop_control/DualMPCPLannerActionController
+
 franka_left_robot_state_broadcaster:
   ros__parameters:
     arm_id: mj_left
@@ -124,3 +129,51 @@ sim_multi_mode_controller:
         names: ["dual_cartesian_impedance_controller"]
         resources:
             dual_cartesian_impedance_controller: ["mj_left&mj_right"]
+
+franka_left_panda_pd_controller:
+   ros__parameters:
+    arm_id: "mj_left"
+    p_gains:
+      - 217.0
+      - 217.0
+      - 217.0
+      - 217.0
+      - 217.0
+      - 217.0
+      - 217.0
+    d_gains:
+      - 30.0
+      - 30.0
+      - 30.0
+      - 30.0
+      - 30.0
+      - 30.0
+      - 30.0
+
+
+franka_right_panda_pd_controller:
+   ros__parameters:
+    arm_id: "mj_right"
+    p_gains:
+      - 217.0
+      - 217.0
+      - 217.0
+      - 217.0
+      - 217.0
+      - 217.0
+      - 217.0
+    d_gains:
+      - 30.0
+      - 30.0
+      - 30.0
+      - 30.0
+      - 30.0
+      - 30.0
+      - 30.0
+
+dual_mpc_controller:
+   ros__parameters:
+    update_rate: 200 #Hz
+    open_loop_mode: true
+    mixed: false
+    prediction_horizon: 3

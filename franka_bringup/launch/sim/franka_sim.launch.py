@@ -131,7 +131,7 @@ def generate_launch_description():
         Node( # RVIZ dependency
             package='controller_manager',
             executable='spawner',
-            arguments=['joint_state_broadcaster', '-c', concatenate_ns(ns, 'controller_manager', True)],
+            arguments=['panda_pd_controller','joint_state_broadcaster','franka_robot_state_broadcaster','franka_robot_model_broadcaster','-c', concatenate_ns(ns, 'controller_manager', True)],
             output='screen',
         ),
         Node(package='rviz2',

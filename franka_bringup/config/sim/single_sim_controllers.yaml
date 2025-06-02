@@ -28,6 +28,8 @@ controller_manager:
         type: franka_example_controllers/CartesianImpedanceExampleController
       multi_mode_controller:
         type: multi_mode_controller/MultiModeController
+      panda_pd_controller:
+        type: pd_controller_franka_panda_with_compensation/PDFrankaPandaControllerCompensation
 franka_robot_state_broadcaster:
   ros__parameters:
     arm_id: panda
@@ -75,3 +77,23 @@ multi_mode_controller:
         names: ["panda_joint_impedance_controller"]
         resources:
             panda_joint_impedance_controller: ["panda"]
+
+panda_pd_controller:
+   ros__parameters:
+    arm_id: "panda"
+    p_gains:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    d_gains:
+      - 10.2
+      - 10.2
+      - 10.2
+      - 10.2
+      - 10.2
+      - 10.2
+      - 10.5
